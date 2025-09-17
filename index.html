@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty - Calculadora de Rotas Interdimensionais</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Background Video -->
+    <video autoplay muted loop id="background-video">
+      <source src="/assets/background.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <!-- Audio Theme -->
+    <audio loop id="theme-audio">
+      <source src="/assets/theme.mp3" type="audio/mpeg" />
+      Seu navegador não suporta áudio HTML5.
+    </audio>
+
+    <!-- Controles de Áudio -->
+    <div class="audio-controls">
+      <button id="play-audio" class="audio-btn" title="Tocar música">🎵</button>
+      <button id="pause-audio" class="audio-btn" title="Pausar música">⏸️</button>
+    </div>
+
+    <div class="container">
+      <h1>🚀 Rick & Morty</h1>
+      <p class="subtitle">Calculadora de Rotas Interdimensionais</p>
+
+      <div class="input-section">
+        <label for="coordenadas-input">Coordenadas dos Planetas:</label>
+        <input type="text" id="coordenadas-input" placeholder="Ex: [[0,0],[2,2],[3,10],[5,2],[7,0]]" />
+      </div>
+
+      <div class="buttons">
+        <button id="calcular-btn" class="glow-on-hover" type="button">CALCULAR ROTA</button>
+        <button id="limpar-btn" class="glow-on-hover" type="button">LIMPAR</button>
+      </div>
+
+      <div class="result-section">
+        <h2>Portal Gun Results</h2>
+        <div id="resultado-container">
+          <p class="instruction">
+            Insira as coordenadas dos planetas e clique em CALCULAR ROTA para descobrir a menor distância
+            interdimensional!
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
