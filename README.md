@@ -115,7 +115,7 @@ O algoritmo implementado está **matematicamente correto** e produz resultados p
 - **Precisão:** Até 6 casas decimais
 - **Validação:** Entrada e formato de coordenadas
 - **Otimização:** Fixa origem para reduzir permutações
-- **Interface:** Visual cyberpunk Rick & Morty theme
+- **Interface:** Visual Rick & Morty theme
 
 ---
 
